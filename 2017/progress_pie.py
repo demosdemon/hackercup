@@ -28,8 +28,6 @@ class Screen(object):
     def contains(self, point):
         if self.percentage == 0:
             return False
-        if self.percentage == 100:
-            return True
 
         if (point.x - 50) ** 2 + (point.y - 50) ** 2 > (50 ** 2):
             return False
