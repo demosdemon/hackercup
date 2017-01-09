@@ -1,0 +1,8 @@
+[flake8]
+# E266: too many leading '#' for block comment
+# E731: do not assign a lambda expression, use a def
+# H301: one import per line
+ignore = E266,E731,H301
+select = E,F,W,C,H
+max-line-length = 100
+enable-extensions = 
